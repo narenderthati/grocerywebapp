@@ -1,6 +1,6 @@
-package com.grocerystore.grocerywebapp.common.respository;
+package com.grocerystore.grocerywebapp.common.respository.mongo;
 
-import com.grocerystore.grocerywebapp.common.modal.AppMenu;
+import com.grocerystore.grocerywebapp.common.model.mongo.AppMenu;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

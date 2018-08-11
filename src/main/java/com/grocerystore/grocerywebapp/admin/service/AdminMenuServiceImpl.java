@@ -1,7 +1,8 @@
 package com.grocerystore.grocerywebapp.admin.service;
 
-import com.grocerystore.grocerywebapp.common.modal.AppMenu;
-import com.grocerystore.grocerywebapp.common.respository.MenuRepository;
+
+import com.grocerystore.grocerywebapp.common.model.mongo.AppMenu;
+import com.grocerystore.grocerywebapp.common.respository.mongo.MenuRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

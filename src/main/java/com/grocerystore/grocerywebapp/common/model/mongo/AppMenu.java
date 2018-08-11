@@ -1,4 +1,4 @@
-package com.grocerystore.grocerywebapp.common.modal;
+package com.grocerystore.grocerywebapp.common.model.mongo;
 
 
 import org.springframework.data.mongodb.core.mapping.Document;

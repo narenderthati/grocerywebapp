@@ -1,7 +1,7 @@
 package com.grocerystore.grocerywebapp.admin;
 
 import com.grocerystore.grocerywebapp.admin.service.AdminMenuService;
-import com.grocerystore.grocerywebapp.common.modal.AppMenu;
+import com.grocerystore.grocerywebapp.common.model.mongo.AppMenu;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/admin")
+@RequestMapping("/gwa/admin")
 public class AdminController {
 
 
